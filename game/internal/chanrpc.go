@@ -12,6 +12,7 @@ func init() {
 func rpcNewAgent(args []interface{}) {
 	a := args[0].(gate.Agent)
 	_ = a
+	println("a", a)
 }
 
 func rpcCloseAgent(args []interface{}) {
