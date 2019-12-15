@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/WangPengJu/leafserver/conf"
+	"github.com/WangPengJu/leafserver/game"
+	"github.com/WangPengJu/leafserver/gate"
+	"github.com/WangPengJu/leafserver/login"
 	"github.com/name5566/leaf"
 	lconf "github.com/name5566/leaf/conf"
-	"server/conf"
-	"server/game"
-	"server/gate"
-	"server/login"
 )
 
 func main() {
